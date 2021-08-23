@@ -6,9 +6,10 @@
       </h3>
       <p>({{format_date created_at}})</p>
     </div>
-    <span>({{post_content}})</span>
+    <span>{{post_content}}</span>
     <div class="meta">
       <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+      <br><br>
       <a href="/dashboard/edit/{{id}}" class="edit-link">Edit post</a>
     </div>
   </div>
